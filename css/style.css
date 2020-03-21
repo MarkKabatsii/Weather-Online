@@ -1,0 +1,110 @@
+body {
+    background-color: #fefeff;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0 0 2rem 0;
+}
+
+h4 {
+    margin: 1.5rem 0 0 0;
+}
+
+select {
+    display: block;
+}
+
+.weather-wrapper {
+    padding: 20px 0;
+}
+
+.card {
+    max-width: 600px;
+    background-color: #f2f2f22e;
+    border: 1px solid #08377c17;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.date-time {
+    text-transform: uppercase;
+    color: #ec6e4c;
+    font-weight: 700;
+}
+
+.city-name {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.degree {
+    font-size: 130px;
+    font-weight: 700;
+    color: #121212;
+}
+
+.degree-min-max {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00000073;
+}
+
+.weather-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.weather-main p {
+    text-transform: uppercase;
+    color: #00000073;
+}
+
+p span, .deg span {
+    display: block;
+    text-transform: lowercase;
+    font-weight: 700;
+    color: #121212;
+}
+
+.deg span {
+    font-size: 2rem;
+}
+
+.weather-zone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #fefeff;
+    border-radius: 10px;
+    box-shadow: 0px -2px 11px -5px rgba(0,0,0,0.75);
+    padding: 15px 0;
+}
+
+.weather-time {
+    padding: 5px 0;
+}
+
+.weather-time:not(:last-child){
+    border-right: 1px solid #1212122e;
+}
+
+.weather-date {
+    font-weight: 700;
+}
+
+.clock-degree {
+    font-size: 28px;
+    font-weight: 700;
+}
